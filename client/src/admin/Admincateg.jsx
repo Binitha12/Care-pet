@@ -1,5 +1,5 @@
 import React , { useState,useEffect }  from 'react';
-import {GoogleLogin, GoogleLogout} from 'react-google-login';
+import {GoogleLogin, GoogleLogout} from '@react-oauth/google';
 import { Link } from 'react-router-dom';
 //import pawss  from '../assets/pawss.png'
 import animals from '../assets/animals.png'

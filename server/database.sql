@@ -4,7 +4,7 @@ CREATE TABLE accounts(
    user_id SERIAL PRIMARY KEY,
    username VARCHAR (50),
    password VARCHAR (50));
-)
+
 CREATE TABLE meet (
    
    parentname VARCHAR(50),
@@ -51,4 +51,3 @@ CREATE TABLE bird (
    ownername VARCHAR(100),
    phoneno VARCHAR(100)
 );
-)
